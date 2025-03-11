@@ -1,0 +1,15 @@
+export enum ButtonVariants {
+  DEFAULT = "default",
+  PRIMARY = "primary",
+  SECONDARY = "secondary",
+  SHADOW_SECONDARY = "shadowSecondary",
+  // SIMPLE_SECONDARY = "simpleSecondary",
+  // SIMPLE = "simple",
+  // WHITE = "white",
+  // BLUE = "blue",
+  // GRAY = "gray",
+  // SIMPLE_BLACK = "blackSimple",
+  // RED = "red",
+  // RED_SECONDARY = "redSecondary",
+  // SIMPLE_RED = "simpleRed",
+}

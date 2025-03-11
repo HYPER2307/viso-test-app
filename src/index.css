@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  background: #000;
+}
+
+.container {
+  @apply mx-auto box-border w-full max-w-320 overflow-hidden px-4;
+}

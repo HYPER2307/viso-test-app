@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "printWidth": 80,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "singleQuote": false,
+  "jsxBracketSameLine": true,
+  "semi": true,
+  "importOrder": [
+    "^react$",
+    "^./_app.scss$",
+    "^@lc/(.*)$",
+    "^components/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
